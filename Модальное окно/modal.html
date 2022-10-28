@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Модальное окно</title>
+        <link href="modal-style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body id="body">
+        <section class = 'main' id="main">
+            <h1>Модальное окно</h1>
+            <div class="overlay">
+                <div class="question">Хотите открыть Модальное окно?</div>
+                <button class="main__button" id="main__button">Да, откройте мне модальное окно</button>
+            </div>
+        </section>
+        <div class="main__blackout" id="main__blackout"></div>
+        <div class="modal" id="modal__windows">
+            <p class="modal__windows_text">Открыл</p>
+            <img class="modal__close" id="modal__close" src="close-r.svg" alt="Close">
+        </div>
+    </body>
+    <script src="modal-script.js"></script>
+</html>
